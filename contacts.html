@@ -16,7 +16,7 @@
     <header class="container">
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <img class="logo" src="img/ROMIK-LOGO.jpg" alt="romik-logo">
+            <a href="index.html"><img class="logo" src="img/ROMIK-LOGO.jpg" alt="romik-logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,10 +45,11 @@
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Пошук по сайту..." aria-label="Search">
                     <button class="btn my-2 my-sm-0" type="submit"><img class="search" src="img/search.svg"></button>
-                    <a class="nav-link" href="shopping-cart.html"><img class="cart" src="img/shopping-cart_b.svg"></a>
+                    <a class="nav-link cart-logo" href="#cartModal" data-toggle="modal"><img class="cart" src="img/shopping-cart_b.svg"></a>
                 </form>
             </div>
         </nav>
+
     </header>
 
     <main class="container">
@@ -84,6 +85,40 @@
 
 
 
+    <<div class="modal fade" id="cartModal" tabindex="-1" role="dialog" aria-labelledby="cartLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="cartLabel">Корзина</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="cart-product-list-container"></div>
+            <hr>
+            <div class="container">
+              <form>
+                <div class="form-group row">
+                  <label for="client-name" class="col-4 col-form-label">Ваше ім’я:</label>
+                  <input class="form-control col-8" type="text" id="client-name" required>
+                </div>
+                <div class="form-group row">
+                  <label for="client-email" class="col-4 col-form-label">Ваш email:</label>
+                  <input class="form-control col-8" type="email" id="client-email" required>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-primary order">Замовити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
     <footer class="container">
         <div class="content">
             <nav>
@@ -105,9 +140,6 @@
                     <div id="btnwrap"><button name="sendbtn" id="sendbtn" type="submit" value="Send" class="button">ПІДПИСАТИСЯ</button></div>
                 </form>
             </div>
-
-
-
         </div>
 
         <div class="bottom-element">
@@ -116,13 +148,18 @@
 
     </footer>
 
-    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=" anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="js/index.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script async src="js/alert-window.js"></script>
+    <script defer src="js/cart.js"></script>
+    <script defer src="js/product-list.js"></script>
+    <script defer src="js/index.js"></script>
 </body>
 
 </html>

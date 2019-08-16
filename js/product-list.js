@@ -4,7 +4,6 @@ class ProductList {
       fetch(productsUrl)
         .then(result => result.json())
         .then(products => {
-          this.products = products.sort( (a, b) => b.price - a.price );
           this.renderProducts(renderContainer, products);
           this.addEventListeners();
         });
@@ -17,7 +16,7 @@ class ProductList {
       products.forEach(product => {
         productListDomString += `
             <article class="card product">
-                <a data-toggle="modal" data-id="${product.id}"><img src="img/${product.image}" class="card-img-top" alt="${product.title}"></a>
+                <a href="product.html"><img src="img/${product.image}" class="card-img-top" alt="${product.title}"></a>
                 <div class="card-body">
                     <h5 class="card-title">${product.title}</h5>
                     <div class="box-elements">

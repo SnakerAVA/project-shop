@@ -17,7 +17,7 @@ function completeInviteForm() {
         })
     }).then(()=>{
         $("#inviteform").remove()
-        erdiv.html("Дякую");
+        erdiv.html("Ви підписалися на нашу розсилку.");
     })
 }
 
@@ -35,9 +35,11 @@ $(document).ready(function() {
             $("#email").remove()
             erdiv.html("Обробка...");
             $("#inviteform").append('<img src="img/loader.gif" alt="loading">')
-            completeInviteForm();
+            setTimeout(completeInviteForm, 2000);
         }
+
     });
+
 });
 
 
