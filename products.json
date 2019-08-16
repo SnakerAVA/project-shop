@@ -33,17 +33,33 @@
 
     {
     "id": "5",
-    "title": "Men's Lightweight Fitted Jacket",
-    "price": 650,
+    "title": "Infamous PRO DNA Sicario Jogger Pants",
+    "price": 123,
     "description":"Сама тепла куртка цього сезону чекає саме тебе!",
-    "image": "riders-jacket-for-man.jpg"
+    "image": "jogger.jpg"
+    },
+    
+    {
+    "id": "6",
+    "title": "Kokatat Boater Pants",
+    "price": 1293,
+    "description":"Сама тепла куртка цього сезону чекає саме тебе!",
+    "image": "boat.jpg"
+    },
+    
+    {
+    "id": "7",
+    "title": "Latitude Jacket",
+    "price": 680,
+    "description":"Сама тепла куртка цього сезону чекає саме тебе!",
+    "image": "gray.jpg"
     },
 
     {
-    "id": "6",
-    "title": "Men's Lightweight Fitted Jacket",
-    "price": 650,
+    "id": "8",
+    "title": "Чоловічі модульні штани TREK 500",
+    "price": 850,
     "description":"Сама тепла куртка цього сезону чекає саме тебе!",
-    "image": "riders-jacket-for-man.jpg"
+    "image": "track.jpg"
     }
 ]
