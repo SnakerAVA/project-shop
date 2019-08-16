@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:300,400,600&display=swap');
+html {
+    height: 100%;
+}
+
+:root {
+    --main-color: black;
+    --accent-color: rgb(29, 34, 90);
+    scroll-behavior: smooth;
+}
+
+.alert {
+    position: fixed;
+    top: 50px;
+    width: 50%;
+    left: 25%;
+    z-index: 1051;
+}
+
+.white {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(29, 34, 90);
+    margin: 0;
+    font-family: 'Open Sans', sans serif;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+.add {
+    color: #FFFFFF!important;
+}
+
+header {
+    flex: 0 0 auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+.slider {
+    z-index: 0;
+}
+
+main.container {
+    max-width: 1020px;
+    margin: auto;
+    background-origin: padding-box;
+}
+
+.breadcrumb {
+    margin-top: 1rem;
+    margin-bottom: 0;
+    background-color: rgb(29, 34, 90);
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.breadcrumb-item.active {
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.container {
+    max-width: 1920px;
+    margin: auto;
+    background-origin: padding-box;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card {
+    border-radius: 0.5em;
+    margin: 10px;
+    box-shadow: 0px 10px 14px -7px #000000;
+}
+
+.btn-primary {
+    background-color: rgb(48, 56, 136);
+    border-color: rgb(48, 56, 136);
+}
+
+.btn-primary:hover {
+    background-color: rgb(29, 34, 90);
+    border-color: rgb(29, 34, 90);
+}
+
+.logo {
+    height: 50px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+header nav {
+    max-width: 1020px;
+    margin: auto;
+    padding-bottom: 16px;
+}
+
+@media (min-width: 992px) {
+    header.container {
+        max-width: 1920px;
+        margin: auto;
+    }
+}
+
+.bg-light {
+    background-color: #ffffff!important;
+}
+
+header .menu-top {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+header .menu-top a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+header .menu-top a:hover {
+    color: var(--accent-color);
+}
+
+@media (min-width: 775px) {
+    header nav {
+        display: flex;
+        align-items: center;
+        padding-bottom: 0px;
+    }
+    .logo {
+        height: 70px;
+        width: auto;
+    }
+    header .menu-top {
+        margin-bottom: 16px;
+    }
+    header .menu-top a {
+        margin-right: 50px;
+    }
+}
+
+.banner {
+    background-image: url(img/jacket-man.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.banner h1 {
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+}
+
+main {
+    flex: 1 0 auto;
+    max-width: 1020px;
+    margin: auto;
+    background-origin: padding-box;
+    padding-bottom: 40px;
+}
+
+main h2 {
+    margin-top: 0px;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 300;
+}
+
+main .product {
+    border-radius: 0.5em;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0px 10px 14px -7px #000000;
+}
+
+main .product img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    main .product-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3px;
+    }
+}
+
+@media (min-width: 660px) {
+    main .product-list {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    main .product-list {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1020px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: 1rem;
+    }
+}
+
+.nav-link {
+    color: rgba(29, 34, 90, 0.73);
+}
+
+.cart {
+    width: 25px;
+}
+
+@media (min-width: 576px) {
+    .mr-sm-2 {
+        margin-right: 0!important;
+    }
+}
+
+.search {
+    width: 22px;
+}
+
+.search:hover {
+    fill: #FFFFFF;
+}
+
+.box-elements {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .product .button {
+    transform: translateY(30%);
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    border: transparent;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    background-color: rgb(48, 56, 136);
+    height: 40px;
+}
+
+.button:hover {
+    background-color: var(--accent-color);
+    cursor: pointer;
+    color: white;
+}
+
+main .product h3 {
+    margin: 15px;
+}
+
+main .product h4 {
+    font-weight: 300;
+    display: inline-block;
+}
+
+footer {
+    flex: 0 0 auto;
+    background-color: #202020;
+    padding-top: 10px;
+}
+
+footer .menu-bottom {
+    list-style-type: none;
+    padding: 0;
+    font-weight: 700;
+    margin-top: 16px;
+}
+
+footer .menu-bottom a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .menu-bottom li {
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+footer .menu-bottom a:hover {
+    color: rgb(163, 163, 163);
+}
+
+footer .comunication {
+    text-align: center;
+    color: white;
+}
+
+footer .comunication button {
+    margin-bottom: 40px;
+}
+
+footer .comunication input {
+    background: #202020;
+    border: 1px solid #FFFFFF;
+    height: 35px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: #FFFFFF
+}
+
+footer .content {
+    max-width: 1020px;
+    margin: auto;
+}
+
+@media (min-width: 550px) {
+    footer .content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    footer .comunication {
+        text-align: right;
+        position: relative;
+    }
+    footer .comunication h3 {
+        margin-top: 22px;
+    }
+    footer .menu-bottom li {
+        padding-left: 0px;
+    }
+    footer .comunication button {
+        margin-bottom: 0px;
+    }
+}
+
+footer .bottom-element {
+    background-color: rgb(17, 17, 17);
+    padding: 1px;
+}
+
+footer .bottom-element p {
+    text-align: center;
+    margin: 20px;
+    color: rgb(98, 98, 98);
+    font-size: 0.8rem;
+}
+
+#error {
+    color: #FFFFFF;
+}
+
+.fa-shopping-cart {
+ pointer-events: none;
+}

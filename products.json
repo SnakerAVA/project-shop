@@ -1,0 +1,49 @@
+[
+    {
+    "id": "1",
+    "title": "Куртка MONTANE Autumn 15",
+    "price": 666,
+    "description":"Сама тепла куртка цього сезону чекає саме тебе!",
+    "image": "autumn.jpg"
+    },
+
+    {
+    "id": "2",
+    "title": "Штани MONTANE Awesome",
+    "price": 40,
+    "description":"Сама тепла куртка цього сезону чекає саме тебе!",
+    "image": "40g.jpg"
+    },
+
+    {
+    "id": "3",
+    "title": "Kуртка MONTANE Nothing special",
+    "price": 1337,
+    "description":"Сама тепла куртка цього сезону чекає саме тебе!",
+    "image": "suck.jpg"
+    },
+
+    {
+    "id": "4",
+    "title": "Men's Lightweight Fitted Jacket",
+    "price": 650,
+    "description":"Сама тепла куртка цього сезону чекає саме тебе!",
+    "image": "riders-jacket-for-man.jpg"
+    },
+
+    {
+    "id": "5",
+    "title": "Men's Lightweight Fitted Jacket",
+    "price": 650,
+    "description":"Сама тепла куртка цього сезону чекає саме тебе!",
+    "image": "riders-jacket-for-man.jpg"
+    },
+
+    {
+    "id": "6",
+    "title": "Men's Lightweight Fitted Jacket",
+    "price": 650,
+    "description":"Сама тепла куртка цього сезону чекає саме тебе!",
+    "image": "riders-jacket-for-man.jpg"
+    }
+]

@@ -1,0 +1,10 @@
+{"clientName":"Imya","clientEmail":"email@gmail.com","cart":{"1":8,"2":21,"3":1}}
+{"clientName":"easdasdasd","clientEmail":"pes@gmail.com","cart":{"2":12}}
+{"clientName":"asdsad","clientEmail":"asdasd@gasfasf.ua","cart":{}}
+{"clientName":"asdsadsd","clientEmail":"3wrsef@gmial.com","cart":{}}
+{"clientName":"asdasd","clientEmail":"fasda@gmail.com","cart":{}}
+{"clientName":"asdsadsad","clientEmail":"loh@gmail.com","cart":{"1":1}}
+{"clientName":"3123","clientEmail":"gjksdf@gmail.com","cart":{"4":2}}
+{"clientName":"loh","clientEmail":"loh@loh.loh","cart":{"2":4,"4":1,"5":1}}
+{"clientName":"dadad","clientEmail":"chigivara@jmih.com","cart":{"2":3,"5":1}}
+{"clientEmail":"chigivara@jmih.com"}

@@ -1,0 +1,47 @@
+.main-contact-details {
+    background: #e9e9e9;
+    float: left;
+    clear: both;
+    margin: 15px 0px 0px;
+    width: 96%;
+    padding: 15px 2% 10px;
+}
+
+.main-contact-details ul.contact-details {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-contact-details ul.contact-details span.address {
+    background: url(../img/home.png) center no-repeat;
+}
+
+.contact-info {
+    color: #a6a6a6;
+}
+
+.main-contact-details {
+    background: #e9e9e9;
+}
+
+.main-contact-details ul.contact-details li a {
+    color: #5a5a5a;
+}
+
+.main-contact-details ul.contact-details span.address {
+    background: url(../img/home.png) center no-repeat;
+}
+
+.main-contact-details ul.contact-details span.mail {
+    background: url(../img/home.png) center 2px no-repeat;
+}
+
+.main-contact-details ul.contact-details span.phone {
+    background: url(../img/home.png) center no-repeat;
+}
+
+.main-contact-details ul.contact-details span.skype {
+    background: url(../img/home.png) center no-repeat;
+}
